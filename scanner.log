@@ -1,0 +1,15 @@
+
+DEBUG:root:{'tcp': {'method': 'syn', 'services': '1-1024'}}
+DEBUG:root:up
+DEBUG:root:['tcp']
+DEBUG:root:dict_keys([53, 80])
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 409 None
+DEBUG:root:{'tcp': {'method': 'syn', 'services': '1-1024'}}
+DEBUG:root:up
+DEBUG:root:['tcp']
+DEBUG:root:dict_keys([53, 80])
+INFO:dropbox:Request to files/upload
+DEBUG:urllib3.connectionpool:Starting new HTTPS connection (1): content.dropboxapi.com:443
+DEBUG:urllib3.connectionpool:https://content.dropboxapi.com:443 "POST /2/files/upload HTTP/1.1" 200 None
