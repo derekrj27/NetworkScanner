@@ -52,6 +52,7 @@ elif response == '2':
     logging.debug(scanner[ip_addr].all_protocols())
     print("Open Ports: ", scanner[ip_addr]['udp'].keys())
     logging.debug(scanner[ip_addr]['udp'].keys())
+    fileupload.upload_file()
      
      
 # If user's input is 3, perform a Comprehensive scan
@@ -68,6 +69,7 @@ elif response == '3':
     logging.debug(scanner[ip_addr].all_protocols())
     print("Open Ports: ", scanner[ip_addr]['tcp'].keys())
     logging.debug(scanner[ip_addr]['tcp'].keys())
+    fileupload.upload_file()
      
      
 # If user's input is 4, perform a Regular Scan
@@ -82,11 +84,13 @@ elif response == '4':
     logging.debug(scanner[ip_addr].all_protocols())
     print("Open Ports: ", scanner[ip_addr]['tcp'].keys())
     logging.debug(scanner[ip_addr]['tcp'].keys())
+    fileupload.upload_file()
      
      
 elif response == '5':
     print(scanner.scan("127.0.0.1", arguments="-O")['scan']['127.0.0.1']['osmatch'][1])
     logging.debug(scanner.scan("127.0.0.1", arguments="-O")['scan']['127.0.0.1']['osmatch'][1])
+    fileupload.upload_file()
      
      
 elif response == '7': 
@@ -95,6 +99,7 @@ elif response == '7':
     for host, status in hosts_list:
         print('{0}:{1}'.format(host, status))
         logging.debug('{0}:{1}'.format(host, status))
+        fileupload.upload_file()
      
      
 else:
