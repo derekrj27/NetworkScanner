@@ -61,7 +61,7 @@ Git clone the project and install the requirements. Replace "API Key" with your 
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/your_username_/Project-Name.git
+   git clone https://github.com/derekrj27/NetworkScanner
    ```
 3. Install nmap
    ```sh
@@ -136,6 +136,6 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 Derek Johnson - derek.johnson01@mymail.champlain.edu
 
-Project Link: (https://github.com/derekrj27/NetworkScanner)
+Project Link: https://github.com/derekrj27/NetworkScanner
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
