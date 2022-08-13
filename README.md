@@ -134,8 +134,8 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@your_twitter](https://twitter.com/your_username) - derek.johnson01@mymail.champlain.edu
+Derek Johnson - derek.johnson01@mymail.champlain.edu
 
-Project Link: [https://github.com/your_username/repo_name](https://github.com/your_username/repo_name)
+Project Link: (https://github.com/derekrj27/NetworkScanner)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
